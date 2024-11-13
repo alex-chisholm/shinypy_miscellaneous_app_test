@@ -1,5 +1,5 @@
 from shiny import App, ui
-from app.modules.counter_module import counter_ui, counter_server
+from modules.counter_module import counter_ui, counter_server
 
 # Main app UI
 app_ui = ui.page_fluid(
